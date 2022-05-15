@@ -1,0 +1,25 @@
+{
+  "spin": {
+    "slow": {
+      "value": {
+        "rotation": "{rotation.tilt.value}",
+        "velocity": "{velocity.slow.value}",
+        "vibe": "{vibe.soft.value}"
+      }
+    },
+    "medium": {
+      "value": {
+        "rotation": "{rotation.flip.value}",
+        "velocity": "{velocity.medium.value}",
+        "vibe": "{vibe.calm.value}"
+      }
+    },
+    "fast": {
+      "value": {
+        "rotation": "{rotation.tilt.value}",
+        "velocity": "{velocity.fast.value}",
+        "vibe": "{vibe.energetic.value}"
+      }
+    }
+  }
+}

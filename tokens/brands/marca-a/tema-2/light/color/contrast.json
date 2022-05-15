@@ -1,0 +1,12 @@
+{
+  "contrast": {
+    "color": {
+      "brand": {
+        "value": "#FFFFFF"
+      },
+      "focus": {
+        "value": "#FF8A00"
+      }
+    }
+  }
+}

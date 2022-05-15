@@ -1,0 +1,21 @@
+{
+  "border": {
+    "width": {
+      "none": {
+        "value": "0px"
+      },
+      "hairline": {
+        "value": "1px"
+      },
+      "thin": {
+        "value": "2px"
+      },
+      "thick": {
+        "value": "4px"
+      },
+      "heavy": {
+        "value": "8px"
+      }
+    }
+  }
+}

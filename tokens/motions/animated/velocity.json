@@ -1,0 +1,13 @@
+{
+  "velocity": {
+    "slow": {
+      "value": "0.275s"
+    },
+    "medium": {
+      "value": "0.225s"
+    },
+    "fast": {
+      "value": "0.150s"
+    }
+  }
+}

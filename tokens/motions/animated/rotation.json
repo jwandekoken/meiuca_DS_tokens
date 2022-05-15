@@ -1,0 +1,13 @@
+{
+  "rotation": {
+    "tilt": {
+      "value": "90deg"
+    },
+    "flip": {
+      "value": "180deg"
+    },
+    "roll": {
+      "value": "360deg"
+    }
+  }
+}

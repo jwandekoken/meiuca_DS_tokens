@@ -1,0 +1,32 @@
+{
+  "neutral": {
+    "surface": {
+      "pure": {
+        "value": "#292929"
+      },
+      "01": {
+        "value": "#000000"
+      },
+      "02": {
+        "value": "#666666"
+      },
+      "03": {
+        "value": "#A3A3A3"
+      }
+    },
+    "elements": {
+      "pure": {
+        "value": "#F5F5F5"
+      },
+      "01": {
+        "value": "#CCCCCC"
+      },
+      "02": {
+        "value": "#E0E0E0"
+      },
+      "03": {
+        "value": "#FFFFFF"
+      }
+    }
+  }
+}

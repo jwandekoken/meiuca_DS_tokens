@@ -1,0 +1,64 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 15 May 2022 14:37:39 GMT
+ */
+
+:root {
+  --border-radius-none: 0px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --border-radius-pill: 500px;
+  --border-radius-circular: 50%;
+  --border-width-none: 0px;
+  --border-width-hairline: 1px;
+  --border-width-thin: 2px;
+  --border-width-thick: 4px;
+  --border-width-heavy: 8px;
+  --font-size-xxxs: 12px;
+  --font-size-xxs: 14px;
+  --font-size-xs: 16px;
+  --font-size-sm: 20px;
+  --font-size-md: 24px;
+  --font-size-lg: 32px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 64px;
+  --font-size-display: 80px;
+  --font-size-giant: 96px;
+  --line-height-default: 100%;
+  --line-height-xs: 115%;
+  --line-height-sm: 120%;
+  --line-height-md: 133%;
+  --line-height-lg: 150%;
+  --line-height-xl: 170%;
+  --line-height-xxl: 200%;
+  --opacity-level-semiopaque: 0.80;
+  --opacity-level-intense: 0.64;
+  --opacity-level-medium: 0.32;
+  --opacity-level-light: 0.16;
+  --opacity-level-semitransparent: 0.08;
+  --shadow-level-1: 0px 4px 8px;
+  --shadow-level-2: 0px 8px 24px;
+  --shadow-level-3: 0px 16px 32px;
+  --shadow-level-4: 0px 16px 48px;
+  --spacing-inset-size-quarck: 4px;
+  --spacing-inset-size-nano: 8px;
+  --spacing-inset-size-xs: 16px;
+  --spacing-inset-size-sm: 24px;
+  --spacing-inset-size-md: 32px;
+  --spacing-inset-size-lg: 40px;
+  --spacing-size-quarck: 4px;
+  --spacing-size-nano: 8px;
+  --spacing-size-xxxs: 16px;
+  --spacing-size-xxs: 24px;
+  --spacing-size-xs: 32px;
+  --spacing-size-sm: 40px;
+  --spacing-size-md: 48px;
+  --spacing-size-lg: 56px;
+  --spacing-size-xl: 64px;
+  --spacing-size-xxl: 80px;
+  --spacing-size-xxxl: 120px;
+  --spacing-size-huge: 160px;
+  --spacing-size-giant: 200px;
+}

@@ -1,0 +1,22 @@
+{
+  "switch": {
+    "slow": {
+      "value": {
+        "velocity": "{velocity.slow.value}",
+        "vibe": "{vibe.soft.value}"
+      }
+    },
+    "medium": {
+      "value": {
+        "velocity": "{velocity.medium.value}",
+        "vibe": "{vibe.calm.value}"
+      }
+    },
+    "fast": {
+      "value": {
+        "velocity": "{velocity.fast.value}",
+        "vibe": "{vibe.energetic.value}"
+      }
+    }
+  }
+}
