@@ -1,6 +1,10 @@
 const path = require("path");
 const { getBrands } = require("./brand");
 const { buildTokens } = require("./build");
+const { registerFilters, registerFormat } = require("./config");
+
+registerFilters();
+registerFormat();
 
 getBrands().map(async function (current) {
   console.log("current: ", current);

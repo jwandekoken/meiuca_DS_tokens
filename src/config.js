@@ -1,3 +1,5 @@
+const StyleDictionary = require("style-dictionary");
+
 function registerConfig({ current, buildPath }) {
   return {
     source: [current.source],
@@ -19,6 +21,12 @@ function registerConfig({ current, buildPath }) {
           {
             destination: `${current.filename}.scss`,
             format: "scss/variables",
+            filter: "notIsObject",
+          },
+          {
+            destination: `mixins.scss`,
+            format: "scss/mixin",
+            filter: "isObject",
           },
         ],
       },
@@ -26,6 +34,34 @@ function registerConfig({ current, buildPath }) {
   };
 }
 
+function registerFilters() {
+  StyleDictionary.registerFilter({
+    name: "isObject",
+    matcher: function (token) {
+      return typeof token.value === "object";
+    },
+  });
+
+  StyleDictionary.registerFilter({
+    name: "notIsObject",
+    matcher: function (token) {
+      return typeof token.value !== "object";
+    },
+  });
+}
+
+function registerFormat() {
+  StyleDictionary.registerFormat({
+    name: "scss/mixin",
+    formatter: function ({ dictionary }) {
+      console.log("dictionary: ", dictionary);
+      return "";
+    },
+  });
+}
+
 module.exports = {
   registerConfig,
+  registerFilters,
+  registerFormat,
 };
