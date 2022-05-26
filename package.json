@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/jwandekoken/meiuca_DS_tokens"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "node src/index.js",
     "build:dev": "rm -rf dist && node src/index.js"
