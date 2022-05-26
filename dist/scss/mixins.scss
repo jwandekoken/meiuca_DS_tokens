@@ -1,0 +1,64 @@
+@mixin motion-token($type, $trigger){ 
+						@if $type == expand-small {
+							transition-duration: 0.150s;
+							transition-timing-function: cubic-bezier(0.48, 0, 0.48, 1);
+							#{$trigger} {
+								transform: scale(5%);
+							}
+						}
+					
+						@if $type == expand-medium {
+							transition-duration: 0.225s;
+							transition-timing-function: cubic-bezier(0.08, 0, 0.35, 1);
+							#{$trigger} {
+								transform: scale(25%);
+							}
+						}
+					
+						@if $type == expand-large {
+							transition-duration: 0.275s;
+							transition-timing-function: cubic-bezier(0.64, 0, 0.92, 1);
+							#{$trigger} {
+								transform: scale(50%);
+							}
+						}
+					
+						@if $type == spin-slow {
+							transition-duration: 0.275s;
+							transition-timing-function: cubic-bezier(0.48, 0, 0.48, 1);
+							#{$trigger} {
+								transform: rotate(90deg);
+							}
+						}
+					
+						@if $type == spin-medium {
+							transition-duration: 0.225s;
+							transition-timing-function: cubic-bezier(0.08, 0, 0.35, 1);
+							#{$trigger} {
+								transform: rotate(180deg);
+							}
+						}
+					
+						@if $type == spin-fast {
+							transition-duration: 0.150s;
+							transition-timing-function: cubic-bezier(0.64, 0, 0.92, 1);
+							#{$trigger} {
+								transform: rotate(90deg);
+							}
+						}
+					
+						@if $type == switch-slow {
+							transition-duration: 0.275s;
+							transition-timing-function: cubic-bezier(0.48, 0, 0.48, 1);
+						}
+					
+						@if $type == switch-medium {
+							transition-duration: 0.225s;
+							transition-timing-function: cubic-bezier(0.08, 0, 0.35, 1);
+						}
+					
+						@if $type == switch-fast {
+							transition-duration: 0.150s;
+							transition-timing-function: cubic-bezier(0.64, 0, 0.92, 1);
+						}
+					 }
